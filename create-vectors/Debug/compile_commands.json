@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/Users/rakeshshrestha/cpp/competative-journey/create-vectors/Debug",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/c++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -o CMakeFiles/hello.dir/main.cpp.o -c /Users/rakeshshrestha/cpp/competative-journey/create-vectors/main.cpp",
-  "file": "/Users/rakeshshrestha/cpp/competative-journey/create-vectors/main.cpp",
-  "output": "CMakeFiles/hello.dir/main.cpp.o"
-}
-]
