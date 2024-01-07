@@ -4,10 +4,23 @@ using namespace std;
 
 
 int main(void){ 
+  // Array reference with pointer
+  int newArray[2]{1,2};
+  int* arrayPointer = newArray;
+
+  cout << "Array reference with pointer: " << endl;
+  for(int i=0; i < 2; i++){
+    cout << *arrayPointer << endl;
+    arrayPointer++; 
+  }
+  cout << "---------------------------------------" << endl;
+
   // Accessing values with pointer arithmetics on array
   int a[2];
   a[0] = 12;  
   a[1] = 14;
+  cout << "Accessing values with pointer arithmetics on array";
+
   cout << a << ": " << *a << endl;
   cout << a + 1 << ": " << *(a+1) << endl;
   cout << a + 2 << ": " << *(a + 2) << endl;
@@ -40,5 +53,7 @@ int main(void){
   *uPointerBasic = 1123;
   cout << "Basic Unique Pointer: " << *uPointerBasic << endl;
   cout << "---------------------------------------" << endl;
+
+  return 0;
 }
 
