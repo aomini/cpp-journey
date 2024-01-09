@@ -4,4 +4,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(create-vectors)
 add_subdirectory(pointers)
+add_subdirectory(linked-lists)
 
